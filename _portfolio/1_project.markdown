@@ -1,55 +1,16 @@
 ---
 layout: post
-title: Project
-description: a project with a background image
-img: /img/12.jpg
+title: myopoint
+description: Mid-air pointing for large displays
+img: /img/cursor_click.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Myopoint was a research project undertaken at the HCI lab, University of Waterloo. This work was published at ACM CHI 2015. The paper can be found here.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
+<img src="{{ site.baseurl }}/img/technique_walkthrough.jpg" alt="" title="technique" width="100%" height="auto">
 
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
+ABSTRACT
+<br>
+We describe a mid-air, barehand pointing and clicking interaction technique using electromyographic (EMG) and inertial measurement unit (IMU) input from a consumer armband device. The technique uses enhanced pointer feedback to convey state, a custom pointer acceleration function tuned for angular inertial motion, and correction and filtering techniques to minimize side-effects when combining EMG and IMU input. By replicating a previous large display study using a motion capture pointing technique, we show the EMG and IMU technique is only 430 to 790 ms slower and has acceptable error rates for targets greater than 48 mm. Our work demonstrates that consumer-level EMG and IMU sensing is practical for distant pointing and clicking on large displays.
 
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/15wByThgX_U" frameborder="0" allowfullscreen align="middle"></iframe>
